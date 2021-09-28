@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="apple-touch-icon" href="images/color-circle.png">
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#4285f4">
+     <meta name="description" content="a hex color code game">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+<title>Hexadecimal Color Game</title>
+    <!-- Import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  
+  <h1>What is the color code for this color?</h1>
+  <button onClick="reload()" id="button">Restart Game</button>
+  <div class="row">
+    <div id="easy"   class="modes">easy mode</div>
+    <div id="norm" class="modes">normal mode</div>
+    <div id="hard" class="modes">hard mode</div>
+  </div>
+  <div id="colorSample"></div>
+  
+  <div id="as">
+  <div id="a" class="answer">sdg</div>
+  <div id="b" class="answer">sdg</div>
+  <div id="c" class="answer">sdg</div>
+  <div id="d" class="answer">sdg</div>   
+  </div>
+
+  
+  <div class="answer">Score:  <span id="score"></span></div>
+  </body>
+</html>
